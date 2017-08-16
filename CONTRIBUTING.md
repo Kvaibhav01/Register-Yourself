@@ -1,6 +1,6 @@
 ## Contributing
 
-Thank you for your interest in contributing to the **Register-Yourself**.
+Thank you for your interest in contributing to the **Register-Yourself** app.
 
 #### Issues
 
