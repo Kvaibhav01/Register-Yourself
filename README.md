@@ -8,8 +8,10 @@ This is a basic application where a user _signs up_ or _registers_, its details 
 
 **NOTE**:- _This is not a full-fledged Android application in which after registering and logging, you expect to see your profile! This is only meant and developed to understand the SQLite database easily and to implement the same in other project(s)._ If you want to make your own changes to the app; be it UI specific or anything else, you can always read how to do that [here in GitHub](https://github.com/Kvaibhav01/Register-Yourself/blob/master/CONTRIBUTING.md).
 
+#### The demo screencast of the app is in the root folder of this repository. Filename: Register-Yourself Demo.mp4
 
-Here's a quick demo:-
+#### The screenshots are embedded below
 
+![Register activity](http://i.imgur.com/oyS1wUX.png)
 
-Made using [Streamable](https://streamable.com/).
+![Welcome activity](http://i.imgur.com/JJGM3zf.png)
