@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kvaib.resgisteryourself.MainActivity">
+
+
+    <Button
+        android:onClick="onButtonClick"
+        android:id="@+id/Blogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Username"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+    <EditText
+
+        android:id="@+id/TFusername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TFusername"
+        android:layout_alignStart="@+id/TFusername"
+        android:layout_below="@+id/TFusername"
+        android:layout_marginTop="14dp"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/TFPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <Button
+        android:onClick="onButtonClick"
+        android:id="@+id/Bsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:layout_below="@+id/Blogin"
+        android:layout_alignLeft="@+id/Blogin"
+        android:layout_alignStart="@+id/Blogin" />
+</RelativeLayout>
