@@ -1,8 +1,6 @@
 # Register-Yourself
 ## This Android app uses SQLite database to sign-up and register a user.
 
-Featured on [Awesome Android](https://android.libhunt.com/project/register-yourself).
-
 ###### Short description
 This is a basic application where a user _signs up_ or _registers_, its details will be stored in the database. I have used everyone's favourite [SQLite](https://www.sqlite.org/) databse to store the data. Next, in the _login_ activity, when a user types the username and password, it'll will search for that username and find respective password. If the typed password matches with this one then user will successfully register, else it will show a toast error message.
 
